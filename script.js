@@ -1,10 +1,26 @@
-var yourMark = prompt("enter your number between 0 to 20")
-if (yourMark < 0){
-    alert("your number not right")
-}else if(yourMark > 20){
-    alert("your number not right")
-}else if(yourMark > 10){
-    alert("your number great than 10")
-}else{
-    alert("your number not great than 10")
+var date = new Date()
+var today = date.getDay()
+switch(today){
+    case 1 :
+        document.write("Mon")
+        break;
+    case 2 :
+        document.write("Tus")
+        break;
+    case 3 :
+        document.write("Wen")
+        break;
+    case 4 :
+        document.write("tur")
+        break;
+    case 5 :
+        document.write("Fri")
+        break;
+    case 6 : 
+        document.write("Sat")
+         break; 
+    case 7 : 
+        document.write("Sun")
+        break;
+    default:document.write("error")  
 }
