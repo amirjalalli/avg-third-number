@@ -1,11 +1,7 @@
-function update_alert() {
-    window.alert("Welcome, This site is update daily!");
+
+let yourNumber = prompt("Enter a number between 0 to 20");
+if (yourNumber > 10){
+    alert("your number great than 10")
+}else{
+    alert("your number not great than 10")
 }
-function second_alert() {
-    window.alert("please visit the picture section");
-}
-function get_messages() {
-    update_alert();
-    second_alert();
-}
-get_messages();
