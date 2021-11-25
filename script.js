@@ -1,3 +1,3 @@
-var userAge = prompt("enter your age:");
-var userNumberAge = +(userAge);
-alert(typeof userNumberAge);
+var pass = false;
+var ps = String(pass);
+alert(typeof ps);
