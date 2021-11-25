@@ -1,14 +1,7 @@
-var x = prompt("enter fist number:");
-var y = prompt("enter second number:");
-var numberX = Number(x);
-var numberY = Number(y);
-alert(typeof numberX);
-alert(typeof numberY);
-var zarbResult = numberX * numberY;
-alert(zarbResult);
-var taghsimResult = numberX / numberY;
-alert(taghsimResult);
-var jamResult =numberX + numberY;
-alert(jamResult);
-var menhaResult = numberX - numberY;
-alert(menhaResult);
+var str1 = "JavaScript";
+var str2 = "Amir jalali";
+var num1 = 15;
+var num2 = 5;
+
+alert(isNaN(str1 - num2));//====>true
+alert(isNaN(num1 / num2));//=======false
