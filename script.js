@@ -1,3 +1,14 @@
-var pass = false;
-var ps = String(pass);
-alert(typeof ps);
+var x = prompt("enter fist number:");
+var y = prompt("enter second number:");
+var numberX = Number(x);
+var numberY = Number(y);
+alert(typeof numberX);
+alert(typeof numberY);
+var zarbResult = numberX * numberY;
+alert(zarbResult);
+var taghsimResult = numberX / numberY;
+alert(taghsimResult);
+var jamResult =numberX + numberY;
+alert(jamResult);
+var menhaResult = numberX - numberY;
+alert(menhaResult);
